@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: white !important;
+  }
+  
+  .min-h-screen {
+    min-height: 100% !important;
+  }
+}
